@@ -5,6 +5,7 @@
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
+    
 }
 .btn.btn-info{
 color: white;
@@ -54,6 +55,7 @@ color: white;
 
 .contain {
     background-image: url("img/para.jpg");
+  padding: 7%;
     min-height: 354rem;
     background-attachment: fixed;
     background-position: center;
