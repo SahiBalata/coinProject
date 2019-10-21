@@ -1,8 +1,7 @@
 
 function replaceWindow(incomingCoin, expeledCoin){
-  alert("Can't")
-  let liveReportModal = document.getElementById("liveReportModal");
-  liveReportModal.style.display = "block";
+  var modal = document.getElementById("myModal");
+  modal.style.display = "block";
 }
 
 function AddToLiveReport(coinData ,checker)  {

@@ -13,10 +13,15 @@ $(".contain").append(chartContainer);
 	var chart = new CanvasJS.Chart("chartContainer", { 
         
 		title: {
-			text: "Live report coins value in US Dollars"
+            text: "Live report coins value in US Dollars"
+            
         },
         axisX: {
             title: "Coins:"
+        },
+        axisY: {
+            title: "USD",
+            suffix: " $"
         },
 
 		data: [

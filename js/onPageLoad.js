@@ -18,7 +18,7 @@ $(document).ready(function() {
    $(".cardsContain").append(pageSpinner);
 
     $.get('https://api.coingecko.com/api/v3/coins/list', (res) => {
-        $(".cardsContain").empty("#pageSpinner")
+        $(".cardsContain #pageSpinner").remove()
         $(".contain").attr("isGetLoad", 1); 
         for (let i = 0; i < 100; i++) {
             //Creates new card DIV
